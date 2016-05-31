@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A57A221CFDE5D7005A021B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A211CFDE5D7005A021B /* AppDelegate.swift */; };
+		F3A57A241CFDE5D7005A021B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A231CFDE5D7005A021B /* ViewController.swift */; };
+		F3A57A271CFDE5D7005A021B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A57A251CFDE5D7005A021B /* Main.storyboard */; };
+		F3A57A2A1CFDE5D7005A021B /* SMChatCardView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A281CFDE5D7005A021B /* SMChatCardView.xcdatamodeld */; };
+		F3A57A2C1CFDE5D7005A021B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A57A2B1CFDE5D7005A021B /* Assets.xcassets */; };
+		F3A57A2F1CFDE5D7005A021B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A57A2D1CFDE5D7005A021B /* LaunchScreen.storyboard */; };
+		F3A57A3A1CFDE5D7005A021B /* SMChatCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A391CFDE5D7005A021B /* SMChatCardViewTests.swift */; };
+		F3A57A451CFDE5D7005A021B /* SMChatCardViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A441CFDE5D7005A021B /* SMChatCardViewUITests.swift */; };
+		F3A57A571CFDE698005A021B /* SMGroupChatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A551CFDE698005A021B /* SMGroupChatCardView.swift */; };
+		F3A57A581CFDE698005A021B /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A561CFDE698005A021B /* RoundedView.swift */; };
+		F3A57A5A1CFDE6A5005A021B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A591CFDE6A5005A021B /* UIView+Extension.swift */; };
+		F3A57A5D1CFDE6B3005A021B /* GroupChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A5B1CFDE6B3005A021B /* GroupChatRoom.swift */; };
+		F3A57A5E1CFDE6B3005A021B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A5C1CFDE6B3005A021B /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A57A361CFDE5D7005A021B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A57A161CFDE5D6005A021B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A57A1D1CFDE5D7005A021B;
+			remoteInfo = SMChatCardView;
+		};
+		F3A57A411CFDE5D7005A021B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A57A161CFDE5D6005A021B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A57A1D1CFDE5D7005A021B;
+			remoteInfo = SMChatCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3A57A1E1CFDE5D7005A021B /* SMChatCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMChatCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A57A211CFDE5D7005A021B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3A57A231CFDE5D7005A021B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A57A261CFDE5D7005A021B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3A57A291CFDE5D7005A021B /* SMChatCardView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMChatCardView.xcdatamodel; sourceTree = "<group>"; };
+		F3A57A2B1CFDE5D7005A021B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A57A2E1CFDE5D7005A021B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3A57A301CFDE5D7005A021B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A57A351CFDE5D7005A021B /* SMChatCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMChatCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A57A391CFDE5D7005A021B /* SMChatCardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMChatCardViewTests.swift; sourceTree = "<group>"; };
+		F3A57A3B1CFDE5D7005A021B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A57A401CFDE5D7005A021B /* SMChatCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMChatCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A57A441CFDE5D7005A021B /* SMChatCardViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMChatCardViewUITests.swift; sourceTree = "<group>"; };
+		F3A57A461CFDE5D7005A021B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A57A551CFDE698005A021B /* SMGroupChatCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMGroupChatCardView.swift; path = Views/SMGroupChatCardView.swift; sourceTree = "<group>"; };
+		F3A57A561CFDE698005A021B /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedView.swift; path = Views/RoundedView.swift; sourceTree = "<group>"; };
+		F3A57A591CFDE6A5005A021B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
+		F3A57A5B1CFDE6B3005A021B /* GroupChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupChatRoom.swift; path = Models/GroupChatRoom.swift; sourceTree = "<group>"; };
+		F3A57A5C1CFDE6B3005A021B /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = Models/Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A57A1B1CFDE5D7005A021B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A57A321CFDE5D7005A021B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A57A3D1CFDE5D7005A021B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A57A151CFDE5D6005A021B = {
+			isa = PBXGroup;
+			children = (
+				F3A57A201CFDE5D7005A021B /* SMChatCardView */,
+				F3A57A381CFDE5D7005A021B /* SMChatCardViewTests */,
+				F3A57A431CFDE5D7005A021B /* SMChatCardViewUITests */,
+				F3A57A1F1CFDE5D7005A021B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A57A1F1CFDE5D7005A021B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A1E1CFDE5D7005A021B /* SMChatCardView.app */,
+				F3A57A351CFDE5D7005A021B /* SMChatCardViewTests.xctest */,
+				F3A57A401CFDE5D7005A021B /* SMChatCardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A57A201CFDE5D7005A021B /* SMChatCardView */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A541CFDE688005A021B /* Views */,
+				F3A57A531CFDE676005A021B /* Extensions */,
+				F3A57A521CFDE667005A021B /* Models */,
+				F3A57A211CFDE5D7005A021B /* AppDelegate.swift */,
+				F3A57A231CFDE5D7005A021B /* ViewController.swift */,
+				F3A57A251CFDE5D7005A021B /* Main.storyboard */,
+				F3A57A2B1CFDE5D7005A021B /* Assets.xcassets */,
+				F3A57A2D1CFDE5D7005A021B /* LaunchScreen.storyboard */,
+				F3A57A301CFDE5D7005A021B /* Info.plist */,
+				F3A57A281CFDE5D7005A021B /* SMChatCardView.xcdatamodeld */,
+			);
+			path = SMChatCardView;
+			sourceTree = "<group>";
+		};
+		F3A57A381CFDE5D7005A021B /* SMChatCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A391CFDE5D7005A021B /* SMChatCardViewTests.swift */,
+				F3A57A3B1CFDE5D7005A021B /* Info.plist */,
+			);
+			path = SMChatCardViewTests;
+			sourceTree = "<group>";
+		};
+		F3A57A431CFDE5D7005A021B /* SMChatCardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A441CFDE5D7005A021B /* SMChatCardViewUITests.swift */,
+				F3A57A461CFDE5D7005A021B /* Info.plist */,
+			);
+			path = SMChatCardViewUITests;
+			sourceTree = "<group>";
+		};
+		F3A57A521CFDE667005A021B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A5B1CFDE6B3005A021B /* GroupChatRoom.swift */,
+				F3A57A5C1CFDE6B3005A021B /* Person.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F3A57A531CFDE676005A021B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A591CFDE6A5005A021B /* UIView+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F3A57A541CFDE688005A021B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A551CFDE698005A021B /* SMGroupChatCardView.swift */,
+				F3A57A561CFDE698005A021B /* RoundedView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A57A1D1CFDE5D7005A021B /* SMChatCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A57A491CFDE5D7005A021B /* Build configuration list for PBXNativeTarget "SMChatCardView" */;
+			buildPhases = (
+				F3A57A1A1CFDE5D7005A021B /* Sources */,
+				F3A57A1B1CFDE5D7005A021B /* Frameworks */,
+				F3A57A1C1CFDE5D7005A021B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMChatCardView;
+			productName = SMChatCardView;
+			productReference = F3A57A1E1CFDE5D7005A021B /* SMChatCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A57A341CFDE5D7005A021B /* SMChatCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A57A4C1CFDE5D7005A021B /* Build configuration list for PBXNativeTarget "SMChatCardViewTests" */;
+			buildPhases = (
+				F3A57A311CFDE5D7005A021B /* Sources */,
+				F3A57A321CFDE5D7005A021B /* Frameworks */,
+				F3A57A331CFDE5D7005A021B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A57A371CFDE5D7005A021B /* PBXTargetDependency */,
+			);
+			name = SMChatCardViewTests;
+			productName = SMChatCardViewTests;
+			productReference = F3A57A351CFDE5D7005A021B /* SMChatCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3A57A3F1CFDE5D7005A021B /* SMChatCardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A57A4F1CFDE5D7005A021B /* Build configuration list for PBXNativeTarget "SMChatCardViewUITests" */;
+			buildPhases = (
+				F3A57A3C1CFDE5D7005A021B /* Sources */,
+				F3A57A3D1CFDE5D7005A021B /* Frameworks */,
+				F3A57A3E1CFDE5D7005A021B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A57A421CFDE5D7005A021B /* PBXTargetDependency */,
+			);
+			name = SMChatCardViewUITests;
+			productName = SMChatCardViewUITests;
+			productReference = F3A57A401CFDE5D7005A021B /* SMChatCardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A57A161CFDE5D6005A021B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sanjay Maharjan";
+				TargetAttributes = {
+					F3A57A1D1CFDE5D7005A021B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F3A57A341CFDE5D7005A021B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F3A57A1D1CFDE5D7005A021B;
+					};
+					F3A57A3F1CFDE5D7005A021B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F3A57A1D1CFDE5D7005A021B;
+					};
+				};
+			};
+			buildConfigurationList = F3A57A191CFDE5D6005A021B /* Build configuration list for PBXProject "SMChatCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A57A151CFDE5D6005A021B;
+			productRefGroup = F3A57A1F1CFDE5D7005A021B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A57A1D1CFDE5D7005A021B /* SMChatCardView */,
+				F3A57A341CFDE5D7005A021B /* SMChatCardViewTests */,
+				F3A57A3F1CFDE5D7005A021B /* SMChatCardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A57A1C1CFDE5D7005A021B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A57A2F1CFDE5D7005A021B /* LaunchScreen.storyboard in Resources */,
+				F3A57A2C1CFDE5D7005A021B /* Assets.xcassets in Resources */,
+				F3A57A271CFDE5D7005A021B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A57A331CFDE5D7005A021B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A57A3E1CFDE5D7005A021B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A57A1A1CFDE5D7005A021B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A57A5A1CFDE6A5005A021B /* UIView+Extension.swift in Sources */,
+				F3A57A571CFDE698005A021B /* SMGroupChatCardView.swift in Sources */,
+				F3A57A241CFDE5D7005A021B /* ViewController.swift in Sources */,
+				F3A57A2A1CFDE5D7005A021B /* SMChatCardView.xcdatamodeld in Sources */,
+				F3A57A581CFDE698005A021B /* RoundedView.swift in Sources */,
+				F3A57A221CFDE5D7005A021B /* AppDelegate.swift in Sources */,
+				F3A57A5E1CFDE6B3005A021B /* Person.swift in Sources */,
+				F3A57A5D1CFDE6B3005A021B /* GroupChatRoom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A57A311CFDE5D7005A021B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A57A3A1CFDE5D7005A021B /* SMChatCardViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A57A3C1CFDE5D7005A021B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A57A451CFDE5D7005A021B /* SMChatCardViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A57A371CFDE5D7005A021B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A57A1D1CFDE5D7005A021B /* SMChatCardView */;
+			targetProxy = F3A57A361CFDE5D7005A021B /* PBXContainerItemProxy */;
+		};
+		F3A57A421CFDE5D7005A021B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A57A1D1CFDE5D7005A021B /* SMChatCardView */;
+			targetProxy = F3A57A411CFDE5D7005A021B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3A57A251CFDE5D7005A021B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A57A261CFDE5D7005A021B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3A57A2D1CFDE5D7005A021B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A57A2E1CFDE5D7005A021B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3A57A471CFDE5D7005A021B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3A57A481CFDE5D7005A021B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A57A4A1CFDE5D7005A021B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMChatCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snjmhj.SMChatCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3A57A4B1CFDE5D7005A021B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMChatCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snjmhj.SMChatCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3A57A4D1CFDE5D7005A021B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMChatCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snjmhj.SMChatCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMChatCardView.app/SMChatCardView";
+			};
+			name = Debug;
+		};
+		F3A57A4E1CFDE5D7005A021B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMChatCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snjmhj.SMChatCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMChatCardView.app/SMChatCardView";
+			};
+			name = Release;
+		};
+		F3A57A501CFDE5D7005A021B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMChatCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snjmhj.SMChatCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMChatCardView;
+			};
+			name = Debug;
+		};
+		F3A57A511CFDE5D7005A021B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMChatCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snjmhj.SMChatCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMChatCardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A57A191CFDE5D6005A021B /* Build configuration list for PBXProject "SMChatCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A57A471CFDE5D7005A021B /* Debug */,
+				F3A57A481CFDE5D7005A021B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A57A491CFDE5D7005A021B /* Build configuration list for PBXNativeTarget "SMChatCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A57A4A1CFDE5D7005A021B /* Debug */,
+				F3A57A4B1CFDE5D7005A021B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3A57A4C1CFDE5D7005A021B /* Build configuration list for PBXNativeTarget "SMChatCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A57A4D1CFDE5D7005A021B /* Debug */,
+				F3A57A4E1CFDE5D7005A021B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3A57A4F1CFDE5D7005A021B /* Build configuration list for PBXNativeTarget "SMChatCardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A57A501CFDE5D7005A021B /* Debug */,
+				F3A57A511CFDE5D7005A021B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3A57A281CFDE5D7005A021B /* SMChatCardView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3A57A291CFDE5D7005A021B /* SMChatCardView.xcdatamodel */,
+			);
+			currentVersion = F3A57A291CFDE5D7005A021B /* SMChatCardView.xcdatamodel */;
+			path = SMChatCardView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3A57A161CFDE5D6005A021B /* Project object */;
+}
